@@ -14,84 +14,84 @@ const Service = () => {
 
   const services = [
     {
-      img: "/assets/img/service/haircutting-service.jpg",
-      icon: "/assets/img/service/scissors.svg",
-      text: "Precision haircuts designed to suit your style and personality.",
+      img: "",
+      icon: "",
+      text: "Fast and efficient electrical repairs for your home and business.",
       date: "Updated: January 3, 2025",
-      title: "Haircuts & Styling",
+      title: "Electrical Repairs",
       text1:
-        "At Aurora Hair Spa, we specialize in precision haircuts and styling that reflect your unique personality. Whether you’re looking for a classic cut or a bold new look, our experienced stylists are here to make it happen.",
+        "Our skilled electricians provide reliable and timely repair services to ensure your electrical systems are functioning safely.",
       text2:
-        "A great haircut can transform not just your appearance but also your confidence. Let our experts help you achieve a style you’ll love.",
+        "From fixing faulty wiring to addressing power outages, we’re here to handle all your repair needs with precision and expertise.",
       text3:
-        "From consultations to finishing touches, our team ensures that every haircut and style is crafted to perfection, making you feel your absolute best.",
+        "Trust us to deliver high-quality repairs that keep your property safe and powered.",
     },
     {
-      img: "/assets/img/service/hair-highlights-service.png",
-      icon: "/assets/img/service/highlights.svg",
-      text: "Enhance your look with vibrant color treatments and highlights.",
+      img: "",
+      icon: "",
+      text: "Upgrade your home with safe and modern electrical installations.",
       date: "Updated: January 3, 2025",
-      title: "Balayage & Highlights",
+      title: "Electrical Installations",
       text1:
-        "Our color experts are skilled in balayage, highlights, and custom color treatments to give you a radiant, natural look.",
+        "We specialize in installing electrical systems that meet the highest safety standards and match your unique requirements.",
       text2:
-        "Whether you want subtle highlights, vibrant tones, or full-color transformations, we ensure your hair remains healthy and beautiful throughout the process.",
+        "Whether you need new lighting, outlets, or a complete system upgrade, our team is equipped to handle it all.",
       text3:
-        "Using top-quality products and personalized techniques, we create colors that enhance your features and make your hair shine.",
+        "Experience the convenience and safety of expertly installed electrical solutions.",
     },
     {
-      img: "/assets/img/service/hair-blowout-service.jpg",
-      icon: "/assets/img/service/hairdryer.svg",
-      text: "Experience the luxury of perfectly styled hair with our blowouts.",
+      img: "",
+      icon: "",
+      text: "Ensure your property is up to code with our professional inspections.",
       date: "Updated: January 3, 2025",
-      title: "Luxury Blowouts",
+      title: "Electrical Inspections",
       text1:
-        "Indulge in a salon-quality blowout that leaves your hair smooth, shiny, and styled to perfection.",
+        "Our certified electricians provide comprehensive inspections to identify potential hazards and ensure compliance with regulations.",
       text2:
-        "Whether it’s for a special occasion or just a treat for yourself, our blowouts deliver long-lasting results you’ll adore.",
+        "We offer peace of mind by thoroughly assessing your electrical systems for safety and efficiency.",
       text3:
-        "With professional-grade products and tools, we ensure your blowout not only looks great but also feels amazing.",
+        "Protect your home or business with regular inspections from our trusted experts.",
     },
     {
-      img: "/assets/img/service/keratin-service.jpg",
-      icon: "/assets/img/service/keratin-bottle.svg",
-      text: "Smooth, frizz-free hair with our professional keratin treatments.",
+      img: "",
+      icon: "",
+      text: "Power your home with sustainable and reliable solar energy solutions.",
       date: "Updated: January 3, 2025",
-      title: "Keratin Treatments",
+      title: "Solar Panel Services",
       text1:
-        "Tired of frizzy, unmanageable hair? Our keratin treatments restore smoothness and shine, making your hair easier to style.",
+        "We offer professional solar panel installation and maintenance to help you harness the power of the sun.",
       text2:
-        "We use safe, effective formulas that nourish your hair while delivering long-lasting results.",
+        "Reduce your energy bills and your environmental impact with our high-quality solar solutions.",
       text3:
-        "Say goodbye to frizz and hello to effortlessly smooth hair with our customized keratin services.",
+        "Trust our team to design and implement a system that meets your energy needs.",
     },
     {
-      img: "/assets/img/service/bridal-hair-service.jpg",
-      icon: "/assets/img/service/diamond-ring.svg",
-      text: "Perfect your look for your big day with our bridal hair services.",
+      img: "",
+      icon: "",
+      text: "Illuminate your space with our custom lighting solutions.",
       date: "Updated: January 3, 2025",
-      title: "Bridal Hair Styling",
+      title: "Lighting Design",
       text1:
-        "Your wedding day deserves a flawless hairstyle. Our bridal hair experts work closely with you to create a look that complements your gown and theme.",
+        "Enhance your home or office with beautiful and energy-efficient lighting designed to suit your style and function.",
       text2:
-        "From classic updos to modern styles, we ensure your hair is picture-perfect for the most important moments.",
+        "We provide expert recommendations and installations for ambient, task, and accent lighting.",
       text3:
-        "We offer trial sessions to ensure your wedding day style is exactly what you envision.",
+        "Bring your vision to life with tailored lighting solutions that transform your space.",
     },
     {
-      img: "/assets/img/service/scalp-treatment.jpg",
-      icon: "/assets/img/service/woman-hair.svg",
-      text: "Rejuvenate your hair and scalp with our nourishing treatments.",
+      img: "",
+      icon: "",
+      text: "Stay powered through outages with our backup generator services.",
       date: "Updated: January 3, 2025",
-      title: "Scalp Treatments",
+      title: "Generator Installation",
       text1:
-        "Healthy hair starts with a healthy scalp. Our specialized treatments cleanse, nourish, and revitalize your scalp.",
+        "Ensure your home or business has a reliable power source during unexpected outages with our generator installation services.",
       text2:
-        "Whether you’re dealing with dryness, irritation, or buildup, we tailor treatments to meet your needs.",
+        "Our team installs and maintains generators to provide peace of mind and uninterrupted power.",
       text3:
-        "Relax and unwind as we restore balance to your scalp, leaving your hair refreshed and ready to shine.",
+        "Be prepared for any power disruption with our expert generator solutions.",
     },
-  ];  
+  ]; 
 
   const [isOpen7, setIsOpen7] = useState(false);
   const [modalContent, setModalContent] = useState({});
