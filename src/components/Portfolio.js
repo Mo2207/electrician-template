@@ -14,7 +14,7 @@ const portfolioData = [
   {
     title: "Residential Electrical Installations",
     category: "Residential Services",
-    image: "",
+    image: "/assets/img/portfolio/residential-wiring.jpg",
     content: [
       "Ensure your home is powered safely and efficiently with our expert residential electrical installations.",
       "From new builds to renovations, we deliver high-quality wiring and system setups tailored to your needs.",
@@ -24,7 +24,7 @@ const portfolioData = [
   {
     title: "Commercial Lighting Solutions",
     category: "Commercial Services",
-    image: "",
+    image: "/assets/img/portfolio/commercial-lighting.jpg",
     content: [
       "Illuminate your business with our state-of-the-art commercial lighting solutions.",
       "We design and install energy-efficient lighting systems that enhance both functionality and aesthetics.",
@@ -34,7 +34,7 @@ const portfolioData = [
   {
     title: "Electrical Panel Upgrades",
     category: "System Upgrades",
-    image: "",
+    image: "/assets/img/portfolio/panel-work.jpg",
     content: [
       "Upgrade your electrical panel to meet modern power demands and enhance safety.",
       "Our panel upgrade services ensure your home or business has the capacity to handle today’s technology.",
@@ -44,7 +44,7 @@ const portfolioData = [
   {
     title: "Smart Home Automation",
     category: "Smart Technology",
-    image: "",
+    image: "/assets/img/portfolio/stair-lights.jpg",
     content: [
       "Transform your home with the latest in smart home automation technology.",
       "We install and integrate systems that allow you to control lighting, security, and more at your fingertips.",
@@ -54,7 +54,7 @@ const portfolioData = [
   {
     title: "Emergency Electrical Repairs",
     category: "Emergency Services",
-    image: "",
+    image: "/assets/img/portfolio/repairs.jpg",
     content: [
       "We’re here for you with fast and reliable emergency electrical repair services.",
       "Our team is available to address sudden outages, faulty wiring, and other urgent issues promptly.",
@@ -64,7 +64,7 @@ const portfolioData = [
   {
     title: "Energy Efficiency Consultations",
     category: "Energy Savings",
-    image: "",
+    image: "/assets/img/portfolio/efficient-lighting.jpg",
     content: [
       "Reduce your energy bills and carbon footprint with our energy efficiency consultations.",
       "Our experts evaluate your electrical system and provide recommendations for cost-saving upgrades.",
