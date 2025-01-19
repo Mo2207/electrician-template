@@ -11,12 +11,12 @@ const About = () => {
   ];
 
   const progressBarData = [
-    { bgcolor: "#662D91", completed: 95, title: "Haircuts & Styling" },
-    { bgcolor: "#662D91", completed: 90, title: "Balayage & Highlights" },
-    { bgcolor: "#662D91", completed: 85, title: "Root Touch-Ups" },
-    { bgcolor: "#662D91", completed: 95, title: "Luxury Blowouts" },
-    { bgcolor: "#662D91", completed: 80, title: "Keratin Treatments" },
-    { bgcolor: "#662D91", completed: 85, title: "Scalp Treatments" },
+    { bgcolor: "#FF5733", completed: 95, title: "Residential Wiring" },
+    { bgcolor: "#FF5733", completed: 90, title: "Lighting Installations" },
+    { bgcolor: "#FF5733", completed: 85, title: "Electrical Panel Upgrades" },
+    { bgcolor: "#FF5733", completed: 95, title: "Commercial Electrical Services" },
+    { bgcolor: "#FF5733", completed: 80, title: "Energy-Efficient Solutions" },
+    { bgcolor: "#FF5733", completed: 85, title: "Electrical Troubleshooting" },
   ];
 
   const services = [
@@ -53,14 +53,13 @@ const About = () => {
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between mt-[55px]">
               <div className="left w-[40%]">
                 <p className="mb-[15px]">
-                Welcome to <strong>Aurora Hair Spa</strong>, your sanctuary for style and relaxation. 
-                Our team of expert stylists are passionate about creating beautiful, personalized looks 
-                that celebrate your individuality and enhance your natural beauty.
+                  Welcome to <strong>Illumination Electrical</strong>, your trusted partner for reliable and efficient electrical solutions. 
+                  Our team of expert electricians is committed to delivering precision, safety, and innovative services that brighten your space and power your life.
                 </p>
                 <p>
-                At Aurora Hair Spa, we offer a wide range of services, from precision haircuts to luxurious 
-                color treatments, all tailored to match your unique preferences. Our mission is to provide 
-                a calming, rejuvenating experience while helping you look and feel your absolute best.
+                  At Illumination Electrical, we offer a wide range of services, from residential wiring and lighting installations to commercial electrical upgrades, 
+                  all customized to meet your specific needs. Our mission is to ensure a seamless and stress-free experience while providing energy-efficient solutions 
+                  that keep your home and business running smoothly.
                 </p>
               </div>
               <div className="right w-[50%]">
@@ -104,7 +103,7 @@ const About = () => {
                         className="text-[#7d7789] transition-all duration-300 hover:text-[#333]"
                         href="#"
                       >
-                        auroraHairSpa@gmail.com
+                        IlluminationElectric@gmail.com
                       </a>
                     </span>
                   </li>
@@ -131,25 +130,25 @@ const About = () => {
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
                   <ul>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Haircuts & Styling 
+                        Residential Wiring
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Balayage & Highlights  
+                        Lighting Installations
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Root Touch-Ups
+                        Electrical Panel Upgrades
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Luxury Blowouts  
+                        Commercial Electrical Services
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Keratin Treatments 
+                        Energy-Efficient Solutions
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Bridal Hair Styling 
+                        Electrical Troubleshooting
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Scalp Treatments 
+                        Surge Protection Systems
                     </li>
                   </ul>
                 </div>
@@ -163,25 +162,25 @@ const About = () => {
                 <div className="list w-full h-auto clear-both float-left mt-[55px]">
                   <ul>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Haircare Innovations 
+                      Innovative Electrical Solutions
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Sustainable Beauty  
+                      Sustainable Power Systems
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Client-Centered Experiences 
+                      Customer-Centered Services
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Precision & Creativity  
+                      Precision & Efficiency
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Relaxation & Wellness   
+                      Safety & Reliability
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Transformative Style  
+                      Innovative Lighting Designs
                     </li>
                     <li className="mb-[8px] w-full float-left relative pl-[25px]">
-                    Creative Expression
+                      Energy Optimization
                     </li>
                   </ul>
                 </div>
@@ -244,7 +243,7 @@ const About = () => {
               </div> */}
             </div>
           </div>
-          {/* <div className="resume w-full h-auto clear-both float-left mb-[75px]">
+          <div className="resume w-full h-auto clear-both float-left mb-[75px]">
             <div className="wrapper w-full h-auto clear-both float-left flex justify-between">
               <div className="education w-[40%]">
                 <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
@@ -367,7 +366,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
           {/* <div className="partners w-full h-auto clear-both float-left mb-[92px]">
             <div className="cavani_tm_title w-full h-auto clear-both float-left overflow-hidden">
               <span className="inline-block relative font-poppins text-[#333] uppercase font-bold tracking-[8px]">

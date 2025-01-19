@@ -12,75 +12,75 @@ import { Detail, Soundcloud } from "./Popup";
 // hard-coded data for portfolio section
 const portfolioData = [
   {
-    title: "Elegant Haircut",
-    category: "Haircuts & Styling",
-    image: "/assets/img/portfolio/elegant-haircut.jpg",
+    title: "Residential Electrical Installations",
+    category: "Residential Services",
+    image: "",
     content: [
-      "Experience the ultimate in haircuts with our expert stylists who are dedicated to crafting the perfect style for you.",
-      "Whether you’re looking for a classic trim or a bold new look, our attention to detail ensures a result you’ll love.",
-      "Step into a world of luxury and let us transform your hairstyle with precision and care."
+      "Ensure your home is powered safely and efficiently with our expert residential electrical installations.",
+      "From new builds to renovations, we deliver high-quality wiring and system setups tailored to your needs.",
+      "Trust us to provide reliable and long-lasting solutions for all your home electrical requirements."
     ],
   },
   {
-    title: "Balayage Perfection",
-    category: "Balayage & Highlights",
-    image: "/assets/img/portfolio/balayage-hair.jpg",
+    title: "Commercial Lighting Solutions",
+    category: "Commercial Services",
+    image: "",
     content: [
-      "Achieve that sun-kissed glow with our exquisite balayage and highlighting services.",
-      "Our color specialists use advanced techniques to create a seamless, natural-looking blend of tones tailored to your style.",
-      "Let your hair shine with radiant highlights that enhance your beauty and add dimension to your look."
+      "Illuminate your business with our state-of-the-art commercial lighting solutions.",
+      "We design and install energy-efficient lighting systems that enhance both functionality and aesthetics.",
+      "Our team works closely with you to create customized lighting solutions that fit your business needs."
     ],
   },
   {
-    title: "Root Touch-Up Magic",
-    category: "Root Touch-Ups",
-    image: "/assets/img/portfolio/hair-roots.jpg",
+    title: "Electrical Panel Upgrades",
+    category: "System Upgrades",
+    image: "",
     content: [
-      "Say goodbye to grown-out roots with our professional root touch-up services.",
-      "We match your existing color perfectly, ensuring a flawless and refreshed appearance.",
-      "Keep your hair looking polished and vibrant with our quick and effective touch-up solutions."
+      "Upgrade your electrical panel to meet modern power demands and enhance safety.",
+      "Our panel upgrade services ensure your home or business has the capacity to handle today’s technology.",
+      "Enjoy peace of mind knowing your electrical system is running efficiently and up to code."
     ],
   },
   {
-    title: "Smooth Keratin",
-    category: "Keratin Treatments",
-    image: "/assets/img/portfolio/keratin-treatment.jpg",
+    title: "Smart Home Automation",
+    category: "Smart Technology",
+    image: "",
     content: [
-      "Tame unruly hair with our transformative keratin treatments designed to leave your hair smooth and silky.",
-      "Our treatments reduce frizz, enhance shine, and improve manageability for a stunning finish.",
-      "Enjoy long-lasting results that keep your hair looking flawless, no matter the occasion."
+      "Transform your home with the latest in smart home automation technology.",
+      "We install and integrate systems that allow you to control lighting, security, and more at your fingertips.",
+      "Enjoy a seamless and convenient smart home experience tailored to your lifestyle."
     ],
   },
   {
-    title: "Luxury Blowout",
-    category: "Luxury Blowouts",
-    image: "/assets/img/portfolio/blowout-hair.jpg",
+    title: "Emergency Electrical Repairs",
+    category: "Emergency Services",
+    image: "",
     content: [
-      "Indulge in a luxurious blowout that leaves your hair feeling soft, bouncy, and full of life.",
-      "Our stylists use premium products and expert techniques to create a polished, long-lasting look.",
-      "Perfect for any special event or simply treating yourself to a day of pampering."
+      "We’re here for you with fast and reliable emergency electrical repair services.",
+      "Our team is available to address sudden outages, faulty wiring, and other urgent issues promptly.",
+      "Get your electrical systems back up and running safely and efficiently, any time of the day."
     ],
   },
   {
-    title: "Bridal Elegance",
-    category: "Bridal Hair Styling",
-    image: "/assets/img/portfolio/wedding-hair.jpg",
+    title: "Energy Efficiency Consultations",
+    category: "Energy Savings",
+    image: "",
     content: [
-      "Make your wedding day unforgettable with our bespoke bridal hair styling services.",
-      "From timeless updos to soft waves, we create a look that complements your gown and enhances your natural beauty.",
-      "Trust our experienced team to ensure your hair is picture-perfect for your special day."
+      "Reduce your energy bills and carbon footprint with our energy efficiency consultations.",
+      "Our experts evaluate your electrical system and provide recommendations for cost-saving upgrades.",
+      "Let us help you optimize energy usage and create a more sustainable environment."
     ],
-  }
+  },
 ];
 
 const Portfolio = () => {
   const categories = [
-    "Haircuts & Styling",
-    "Balayage & Highlights",
-    "Root Touch-Ups",
-    "Keratin Treatments",
-    "Luxury Blowouts",
-    "Bridal Hair Styling"
+    "Residential Services",
+    "Commercial Services",
+    "System Upgrades",
+    "Smart Technology",
+    "Emergency Services",
+    "Energy Savings"
   ];
 
   const ModalVideo = dynamic(
