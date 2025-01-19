@@ -14,8 +14,8 @@ const Service = () => {
 
   const services = [
     {
-      img: "/assets/img/service/",
-      icon: "/assets/img/service/",
+      img: "/assets/img/service/repairs.jpg",
+      icon: "/assets/img/service/repair.svg",
       text: "Fast and efficient electrical repairs for your home and business.",
       date: "Updated: January 3, 2025",
       title: "Electrical Repairs",
@@ -27,8 +27,8 @@ const Service = () => {
         "Trust us to deliver high-quality repairs that keep your property safe and powered.",
     },
     {
-      img: "/assets/img/service/",
-      icon: "/assets/img/service/",
+      img: "/assets/img/service/panel-install.jpg",
+      icon: "/assets/img/service/electrical-plug.svg",
       text: "Upgrade your home with safe and modern electrical installations.",
       date: "Updated: January 3, 2025",
       title: "Electrical Installations",
@@ -40,8 +40,8 @@ const Service = () => {
         "Experience the convenience and safety of expertly installed electrical solutions.",
     },
     {
-      img: "/assets/img/service/",
-      icon: "/assets/img/service/",
+      img: "/assets/img/service/inspection.jpg",
+      icon: "/assets/img/service/safety-inspection.svg",
       text: "Ensure your property is up to code with our professional inspections.",
       date: "Updated: January 3, 2025",
       title: "Electrical Inspections",
@@ -53,8 +53,8 @@ const Service = () => {
         "Protect your home or business with regular inspections from our trusted experts.",
     },
     {
-      img: "/assets/img/service/",
-      icon: "/assets/img/service/",
+      img: "/assets/img/service/solar-panels.jpg",
+      icon: "/assets/img/service/sun.svg",
       text: "Power your home with sustainable and reliable solar energy solutions.",
       date: "Updated: January 3, 2025",
       title: "Solar Panel Services",
@@ -66,8 +66,8 @@ const Service = () => {
         "Trust our team to design and implement a system that meets your energy needs.",
     },
     {
-      img: "/assets/img/service/",
-      icon: "/assets/img/service/",
+      img: "/assets/img/service/lighting-design.jpg",
+      icon: "/assets/img/service/lightbulb.svg",
       text: "Illuminate your space with our custom lighting solutions.",
       date: "Updated: January 3, 2025",
       title: "Lighting Design",
@@ -79,8 +79,8 @@ const Service = () => {
         "Bring your vision to life with tailored lighting solutions that transform your space.",
     },
     {
-      img: "/assets/img/service/",
-      icon: "/assets/img/service/",
+      img: "/assets/img/service/generator-install.jpg",
+      icon: "/assets/img/service/generator.svg",
       text: "Stay powered through outages with our backup generator services.",
       date: "Updated: January 3, 2025",
       title: "Generator Installation",
