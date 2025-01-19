@@ -258,14 +258,16 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2024
+                              2019
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Beauty Academy "World of Beauty"
+                              Advanced Electrical Training Institute
                             </h3>
-                            <span className="text-[14px]">Certificate</span>
+                            <span className="text-[14px]">
+                              Industrial Electrical Systems Certification
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -273,14 +275,16 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2022
+                              2018
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Beauty Academy
+                              Renewable Energy Training Academy
                             </h3>
-                            <span className="text-[14px]">Certificate</span>
+                            <span className="text-[14px]">
+                              Solar Panel Installation and Maintenance Certificate
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -293,10 +297,10 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Vivienne Lash Art University
+                              Provincial Trades Certification Board
                             </h3>
                             <span className="text-[14px]">
-                              Certificate
+                              Red Seal Journeyman Electrician Certification
                             </span>
                           </div>
                         </div>
@@ -318,15 +322,15 @@ const About = () => {
                         <div className="list_inner w-full h-auto clear-both flex relative">
                           <div className="time w-1/2 pr-[20px]">
                             <span className="inline-block py-[5px] px-[25px] bg-[rgba(0,0,0,.05)] rounded-[50px] text-[14px] whitespace-nowrap">
-                              2018 - running
+                              2018 - present
                             </span>
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Envato Elements
+                              Illumination Electric
                             </h3>
                             <span className="text-[14px]">
-                              Exclusive Author
+                              Founder and Senior Electrician
                             </span>
                           </div>
                         </div>
@@ -340,9 +344,11 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              Avo Corporation
+                              Green Energy Systems
                             </h3>
-                            <span className="text-[14px]">Content Manager</span>
+                            <span className="text-[14px]">
+                              Journeyman Electrician
+                            </span>
                           </div>
                         </div>
                       </li>
@@ -355,9 +361,11 @@ const About = () => {
                           </div>
                           <div className="place w-1/2 pl-[20px]">
                             <h3 className="text-[16px] mb-[2px] font-semibold">
-                              FC Barcelona
+                              PowerGrid Technologies
                             </h3>
-                            <span className="text-[14px]">Football Player</span>
+                            <span className="text-[14px]">
+                              Electrical Apprentice
+                            </span>
                           </div>
                         </div>
                       </li>
