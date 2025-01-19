@@ -6,51 +6,50 @@ import SectionContainer from "../layout/SectionContainer";
 
 const newsData = [
   {
-    title: "New Keratin Treatment Service",
-    date: "February 20, 2025",
+    title: "Introducing Solar Panel Services",
+    date: "February 20, 2023",
     tag: "Services",
     image: "",
     content: [
-      "We are excited to introduce our professional keratin treatment service, designed to leave your hair smooth, shiny, and frizz-free.",
-      "Using the latest techniques and premium products, our keratin treatments ensure long-lasting results that keep your hair looking its best.",
-      "Visit us to learn more about this transformative service and schedule your appointment today!",
+      "We are excited to offer professional solar panel installation and maintenance services to help you harness sustainable energy.",
+      "Our team uses advanced technology and high-quality materials to ensure reliable and efficient solar power solutions.",
+      "Contact us today to learn more about how we can help you reduce your energy bills and environmental impact.",
     ],
   },
   {
-    title: "Bridal Hair Styling Packages",
-    date: "February 1, 2025",
+    title: "Exclusive Lighting Design Promotion",
+    date: "April 3, 2022",
     tag: "Promotions",
     image: "",
     content: [
-      "Your wedding day deserves nothing less than perfection! Aurora Hair Spa now offers exclusive bridal hair styling packages tailored to your needs.",
-      "From timeless updos to modern waves, our expert stylists work closely with you to create your dream look for the big day.",
-      "Contact us to book your consultation and make your wedding day truly unforgettable.",
+      "Transform your space with our limited-time offer on custom lighting design services.",
+      "Whether for your home or office, we create tailored lighting solutions to suit your needs and style.",
+      "Don’t miss this opportunity to upgrade your lighting—schedule your consultation now!",
     ],
   },
   {
-    title: "Balayage & Highlights Special Offer",
-    date: "January 26, 2025",
+    title: "Backup Generator Installation Discount",
+    date: "January 26, 2021",
     tag: "Promotions",
     image: "",
     content: [
-      "Achieve that perfect sun-kissed glow with our limited-time offer on balayage and highlights services.",
-      "Our color specialists use advanced techniques to create natural-looking tones that complement your style.",
-      "Don’t miss this opportunity to enhance your look – book your appointment now!",
+      "Stay prepared for power outages with our discounted backup generator installation services.",
+      "Our expert electricians ensure a seamless installation process to provide reliable power whenever you need it.",
+      "Take advantage of this special offer and secure your home or business today.",
     ],
   },
   {
-    title: "Grand Opening of Aurora Hair Spa",
-    date: "January 9, 2025",
+    title: "Grand Opening of Illumination Electrical",
+    date: "January 9, 2018",
     tag: "Events",
     image: "",
     content: [
-      "We are thrilled to announce the grand opening of Aurora Hair Spa! Join us in celebrating this exciting milestone with exclusive offers and promotions.",
-      "Experience luxurious hair care and styling services designed to make you look and feel your best.",
-      "Book your appointment today and be part of the Aurora Hair Spa family!",
+      "We are thrilled to announce the grand opening of Illumination Electrical! Join us in celebrating this exciting milestone with exclusive offers and promotions.",
+      "Experience top-notch electrical services, from repairs to installations, tailored to meet your unique needs.",
+      "Become part of our journey and let us brighten your world with expert solutions and exceptional customer care.",
     ],
-  }
+  },
 ];
-
 
 const News = () => {
 
