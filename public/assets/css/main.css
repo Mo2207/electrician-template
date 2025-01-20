@@ -979,7 +979,7 @@ h6 {
 .cavani_tm_modalbox .box_inner {
   visibility: hidden;
   position: absolute;
-  top: 25%;
+  top: 50%;
   left: 50%;
   z-index: 1;
   margin-top: -20px;
@@ -1633,7 +1633,7 @@ h6 {
   }
 
   .cavani_tm_modalbox .box_inner {
-    top: 25%;
+    top: 10%;
     left: 50%;
     width: 750px;
   }
@@ -2037,9 +2037,9 @@ h6 {
   }
 
   .cavani_tm_modalbox .box_inner {
-    top: 25%;
+    top: 10%;
     left: 50%;
-    width: 300px;
+    width: 400px;
   }
 
   .cavani_tm_modalbox .close {
