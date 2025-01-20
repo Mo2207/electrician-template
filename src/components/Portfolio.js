@@ -300,8 +300,10 @@ const Portfolio = () => {
                             className="image relative bg-cover bg-center rounded-xl w-full"
                             style={{ 
                               backgroundImage: `url(${item.image})`,
-                              minHeight: '250px',
-                              maxHeight: '300px'
+                              height: '230px',
+                              backgroundSize: 'cover',
+                              backgroundRepeat: 'no-repeat',
+                              backgroundPosition: 'center',
                             }}
                           >
                             <div className="details rounded-1xl">
@@ -365,16 +367,15 @@ const Portfolio = () => {
               <div className="description_wrap rounded-xl">
                 <div className="news_popup_informations w-full h-auto clear-both float-left">
                   {modalContent?.image && (
-                    <div className="image">
-                      <img
-                      src={modalContent.image} // hard-coded image
-                      alt={modalContent.title} // hard-coded title
-                      />
-                      <div
-                        className="main"
-                        style={{ 
-                          backgroundImage: `url(${modalContent.image})`}} // hard-coded background image
-                      />
+                    <div className="image" style={{
+                      backgroundImage: `url(${modalContent.image})`,
+                      height: '350px',
+                      backgroundSize: 'cover',
+                      backgroundRepeat: 'no-repeat',
+                      backgroundPosition: 'center',
+                      borderRadius: '20px'
+                    }} // hard-coded background image 
+                      alt={modalContent.title}>
                     </div>
                   )}
                   <div className="details">
