@@ -372,7 +372,8 @@ const Portfolio = () => {
                       />
                       <div
                         className="main"
-                        style={{ backgroundImage: `url(${modalContent.image})`}} // hard-coded background image
+                        style={{ 
+                          backgroundImage: `url(${modalContent.image})`}} // hard-coded background image
                       />
                     </div>
                   )}
