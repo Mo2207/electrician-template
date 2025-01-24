@@ -37,7 +37,7 @@ const Indexparticle = () => {
         {/* Проверяем наличие Particles */}
         {Particles ? <Particles /> : console.error("Компонент Particles не найден.")}
 
-        <div className="main_content absolute top-0 right-0 bottom-0 w-[60%]">
+        <div className="main_content absolute top-0 left-0 bottom-0 w-[60%]"> 
           {/* Главная страница */}
           <Home />
           {/* О нас */}
